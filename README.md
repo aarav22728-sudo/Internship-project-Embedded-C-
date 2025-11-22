@@ -77,8 +77,5 @@ Special thanks to **Emertexe Information and Technology Solutions** for mentorsh
 
 ---
 
-## 📄 License
-
-MIT License. See [LICENSE](LICENSE) for details.
 
 
