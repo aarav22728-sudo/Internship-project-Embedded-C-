@@ -57,7 +57,8 @@ This simulation-based project uses the PIC16F877A microcontroller to emulate a s
 ---
 
 ## 📈 System Architecture
-[https://github.com/aarav22728-sudo/Internship-project-Embedded-C-/blob/main/System%20Architecture.png]
+![Screenshot Description](images/System Architecture.png)
+
 
 
 ---
