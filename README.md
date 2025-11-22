@@ -1,8 +1,8 @@
 # 🧠 Smart Washing Machine Controller
 
-![license](https://img.shields.io/badge/license-MIT-green)
 ![platform](https://img.shields.io/badge/platform-Embedded%20C%20|%20PIC16F877A-orange)
 ![simulator](https://img.shields.io/badge/simulator-PICsimLab-blueviolet)
+![IDE](https://img.shields.io/badge/simulator-MplabxIDE-white)
 
 A project built under the guidance of **Emertexe Information and Technology Solutions** to design, simulate, and test an embedded smart washing machine controller.
 
