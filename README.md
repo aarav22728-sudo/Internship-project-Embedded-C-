@@ -1,6 +1,6 @@
 # 🧠 Smart Washing Machine Controller
 
-![version](https://img.shields.io/badge/version-1.0.0-indigo)
+![version](https://img.shields.io/badge/version-1.0.0-red)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![platform](https://img.shields.io/badge/platform-Embedded%20C%20|%20PIC16F877A-orange)
 ![simulator](https://img.shields.io/badge/simulator-PICsimLab-blueviolet)
