@@ -57,7 +57,7 @@ Add images of your simulation in action here.
 
 ### Acknowledgements
 
-Special thanks to [Emertexe Information and Technology Solutions](https://www.emertexe.com/) for mentorship and project guidance.
+Special thanks to [Emertexe Information and Technology Solutions](https://www.emertxe.com/) for mentorship and project guidance.
 
 ---
 
