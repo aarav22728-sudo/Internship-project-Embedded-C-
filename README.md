@@ -42,7 +42,7 @@ This project simulates a **smart washing machine controller** using the PIC16F87
 ### Screenshots
 
 Add images of your simulation in action here.
-![Main Simulation Setup](WhatsApp Image 2025-11-22 at 12.16.05_04d20650.jpg)
+![Main Simulation Setup](https://github.com/aarav22728-sudo/Internship-project-Embedded-C-/blob/main/WhatsApp%20Image%202025-11-22%20at%2012.16.05_04d20650.jpg))
 
 ---
 
