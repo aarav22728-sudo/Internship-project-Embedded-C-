@@ -51,7 +51,7 @@ This simulation-based project uses the PIC16F877A microcontroller to emulate a s
 ## 🛠️ Getting Started
 
 1. Clone this repository:
-2. 2. Open in [PICsimLab](https://github.com/luizcarlospiccoli/picsimlab)
+2. 2. Open in [PICsimLab]
 3. Load hex and run simulation.
 
 ---
