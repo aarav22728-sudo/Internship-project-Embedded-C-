@@ -58,13 +58,6 @@ This simulation-based project uses the PIC16F877A microcontroller to emulate a s
 
 ## 📈 System Architecture
 
-stateDiagram-v2
-[] --> Idle
-Idle --> ProgramSelect : Button Press
-ProgramSelect --> Washing : Start
-Washing --> Rinsing : Timer
-Rinsing --> Spinning : Timer
-Spinning --> []
 
 
 ---
