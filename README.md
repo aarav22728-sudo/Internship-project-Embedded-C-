@@ -57,7 +57,7 @@ This simulation-based project uses the PIC16F877A microcontroller to emulate a s
 ---
 
 ## 📈 System Architecture
-![Screenshot Description](images/System Architecture.png)
+<img width="813" height="447" alt="image" src="https://github.com/user-attachments/assets/6b692ee8-7e64-489d-a136-d3f8c0507e35" />
 
 
 
