@@ -1,68 +1,90 @@
-# Smart Washing Machine Controller Simulator
+# 🧠 Smart Washing Machine Controller
 
----
-### Overview
+![version](https://img.shields.io/badge/version-1.0.0-blue)
+![license](https://img.shields.io/badge/license-MIT-green)
+![platform](https://img.shields.io/badge/platform-Embedded%20C%20|%20PIC16F877A-orange)
+![simulator](https://img.shields.io/badge/simulator-PICsimLab-blueviolet)
 
-This project simulates a **smart washing machine controller** using the PIC16F877A microcontroller. Developed during a virtual internship with **Emertexe Information and Technology Solutions**, this project demonstrates product development lifecycle and embedded C proficiency.
-
----
-
-### Features
-
-- Loading screen with initialization feedback.
-- Multiple wash program selections via digital keypad.
-- Water level management and control.
-- Real-time timer display for cycles.
-- Peripheral integration: 16x2 CLCD, buzzer, fan, keypad, all via GPIO in 4-bit mode.
-- State-machine-based controller logic.
-- Simulation tested using PICsimLab.
+A project built under the guidance of **Emertexe Information and Technology Solutions** to design, simulate, and test an embedded smart washing machine controller.
 
 ---
 
-### Tech Stack
+## 🚀 Project Overview
 
-- **Language:** Embedded C
-- **Microcontroller:** PIC16F877A
-- **Simulation:** PICsimLab
-- **Peripherals:** CLCD, Keypad, Buzzer, Fan
+This simulation-based project uses the PIC16F877A microcontroller to emulate a smart washing machine controller. Key peripherals include a 16x2 CLCD, digital keypad, buzzer, fan, and Timer2, all integrated through Embedded C.
 
 ---
 
-### Getting Started
+## 🎯 Problems Solved
 
-1. Clone the repo:
-
-2. Open with [PICsimLab](https://github.com/luizcarlospiccoli/picsimlab).
-3. Load the simulation files included in the `actual project.x` directory.
-4. Flash the firmware (hex file from `/build`).
-5. Interact using the virtual keypad and observe results on CLCD.
+- Inflexible legacy washing machine interfaces
+- Lack of real-time operation monitoring
+- Limited wash program customization
+- Need for accurate state-machine based automation
 
 ---
 
-### Screenshots
+## 🌟 Key Features
 
-Add images of your simulation in action here.
-![Main Simulation Setup](https://github.com/aarav22728-sudo/Internship-project-Embedded-C-/blob/main/WhatsApp%20Image%202025-11-22%20at%2012.16.05_04d20650.jpg))
-
----
-
-### Learning Outcomes
-
-- **Embedded C development for real hardware simulation**
-- **Peripheral interfacing and GPIO management**
-- **State machine logic for real-world control systems**
-- **Understanding product lifecycle through project-based work**
+- **Loading animations & feedback**
+- **Multiple wash program selections**
+- **Real-time water level sensing**
+- **Configurable timer and program status display**
+- **State-machine architecture for safety & efficiency**
+- **Peripheral interfacing in 4-bit GPIO mode**
 
 ---
 
-### Acknowledgements
+## 🖼️ Screenshots
 
-Special thanks to [Emertexe Information and Technology Solutions](https://www.emertxe.com/) for mentorship and project guidance.
+> ![LCD showing wash selection](images/lcd-washsel.jpg)
+> ![Simulation interface in action](images/simulation-action.jpg)
 
 ---
 
-### License
+## 🎥 Demo & Presentation
 
-MIT License.
+- [View Project Demo (YouTube)](https://youtu.be/_JNwzQaGKA4)
+
+---
+
+## 🛠️ Getting Started
+
+1. Clone this repository:
+2. 2. Open in [PICsimLab](https://github.com/luizcarlospiccoli/picsimlab)
+3. Load hex and run simulation.
+
+---
+
+## 📈 System Architecture
+
+stateDiagram-v2
+[] --> Idle
+Idle --> ProgramSelect : Button Press
+ProgramSelect --> Washing : Start
+Washing --> Rinsing : Timer
+Rinsing --> Spinning : Timer
+Spinning --> []
+
+
+---
+
+## 📚 Learning Outcomes
+
+- Embedded C peripherals integration
+- State machine design and implementation
+- Hardware simulation and debugging
+
+---
+
+## 🤝 Acknowledgments
+
+Special thanks to **Emertexe Information and Technology Solutions** for mentorship and opportunities.
+
+---
+
+## 📄 License
+
+MIT License. See [LICENSE](LICENSE) for details.
 
 
